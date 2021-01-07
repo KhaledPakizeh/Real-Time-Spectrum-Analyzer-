@@ -16,3 +16,5 @@ we were given a [C2000](https://www.ti.com/lit/an/sprt720/sprt720.pdf?ts=1610028
  were dsiplayed on the LCD.  
 ### User interface: 
   To handle the user interface and the display, I used a a resistive touch screen [LCD](https://www.hotmcu.com/28-touch-screen-tft-lcd-with-all-interface-p-63.html), the second CPU was used to handle the LCD driver and the GPIO interrupts that were triggried when the user touhed the screen while the first CPU handled the audio processing. The magnitude response data that was obtained by the frist CPU, was shared via an IPC mechanisim with the second CPU to be displayed on the LCD screen. 
+
+![Demo](demo.png)
